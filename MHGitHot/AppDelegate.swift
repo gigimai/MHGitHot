@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import ChameleonFramework
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,8 +15,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window?.backgroundColor = UIColor.whiteColor()
+        let splashViewController = MHSplashViewController()
+        let navController = UINavigationController(rootViewController: splashViewController)
+        self.window?.rootViewController = navController
+        self.window?.makeKeyAndVisible()
+        configNavigationBar()
         return true
+    }
+    
+    func configNavigationBar() {
+        UINavigationBar.appearance().barTintColor = UIColor.flatWatermelonColor()
+        UINavigationBar.appearance().translucent = false
     }
 
     func applicationWillResignActive(application: UIApplication) {
