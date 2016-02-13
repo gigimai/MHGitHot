@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3A1712C31C6FA758005A9412 /* MHSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1712C21C6FA758005A9412 /* MHSplashViewController.swift */; };
-		3A1712C51C6FA76C005A9412 /* MHSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1712C41C6FA76C005A9412 /* MHSplashViewController.xib */; };
 		3A1712C71C6FAABD005A9412 /* MHBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1712C61C6FAABD005A9412 /* MHBaseViewController.swift */; };
 		3A1712C91C6FAB3D005A9412 /* MHHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1712C81C6FAB3D005A9412 /* MHHomeViewController.swift */; };
 		3A1712CB1C6FAB69005A9412 /* MHHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1712CA1C6FAB69005A9412 /* MHHomeViewController.xib */; };
+		3A1712D01C6FB0E0005A9412 /* MHSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1712CF1C6FB0E0005A9412 /* MHSplashViewController.xib */; };
 		3A608A8B1C6F9FB8004149FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A608A8A1C6F9FB8004149FF /* AppDelegate.swift */; };
 		3A608A921C6F9FB8004149FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A608A911C6F9FB8004149FF /* Assets.xcassets */; };
 		3A608A951C6F9FB8004149FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A608A931C6F9FB8004149FF /* LaunchScreen.storyboard */; };
@@ -40,10 +40,10 @@
 /* Begin PBXFileReference section */
 		1354DF5200C6693CF6C9A707 /* Pods-MHGitHot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHGitHot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHGitHot/Pods-MHGitHot.debug.xcconfig"; sourceTree = "<group>"; };
 		3A1712C21C6FA758005A9412 /* MHSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHSplashViewController.swift; path = Controllers/MHSplashViewController.swift; sourceTree = "<group>"; };
-		3A1712C41C6FA76C005A9412 /* MHSplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHSplashViewController.xib; sourceTree = "<group>"; };
 		3A1712C61C6FAABD005A9412 /* MHBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHBaseViewController.swift; path = Controllers/MHBaseViewController.swift; sourceTree = "<group>"; };
 		3A1712C81C6FAB3D005A9412 /* MHHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHHomeViewController.swift; path = Controllers/MHHomeViewController.swift; sourceTree = "<group>"; };
 		3A1712CA1C6FAB69005A9412 /* MHHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MHHomeViewController.xib; path = Views/MHHomeViewController.xib; sourceTree = "<group>"; };
+		3A1712CF1C6FB0E0005A9412 /* MHSplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MHSplashViewController.xib; path = Views/MHSplashViewController.xib; sourceTree = "<group>"; };
 		3A608A871C6F9FB8004149FF /* MHGitHot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHGitHot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A608A8A1C6F9FB8004149FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A608A911C6F9FB8004149FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 		3A1712BE1C6FA731005A9412 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3A1712C41C6FA76C005A9412 /* MHSplashViewController.xib */,
+				3A1712CF1C6FB0E0005A9412 /* MHSplashViewController.xib */,
 				3A1712CA1C6FAB69005A9412 /* MHHomeViewController.xib */,
 			);
 			name = Views;
@@ -299,8 +299,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A608A951C6F9FB8004149FF /* LaunchScreen.storyboard in Resources */,
-				3A1712C51C6FA76C005A9412 /* MHSplashViewController.xib in Resources */,
 				3A1712CB1C6FAB69005A9412 /* MHHomeViewController.xib in Resources */,
+				3A1712D01C6FB0E0005A9412 /* MHSplashViewController.xib in Resources */,
 				3A608A921C6F9FB8004149FF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
