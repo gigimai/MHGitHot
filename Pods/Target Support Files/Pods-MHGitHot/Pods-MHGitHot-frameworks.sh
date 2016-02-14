@@ -84,10 +84,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-MHGitHot/Alamofire.framework"
   install_framework "Pods-MHGitHot/ChameleonFramework.framework"
   install_framework "Pods-MHGitHot/Spring.framework"
+  install_framework "Pods-MHGitHot/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-MHGitHot/Alamofire.framework"
   install_framework "Pods-MHGitHot/ChameleonFramework.framework"
   install_framework "Pods-MHGitHot/Spring.framework"
+  install_framework "Pods-MHGitHot/SwiftyJSON.framework"
 fi

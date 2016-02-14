@@ -12,6 +12,8 @@
 		3A1712C91C6FAB3D005A9412 /* MHHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1712C81C6FAB3D005A9412 /* MHHomeViewController.swift */; };
 		3A1712CB1C6FAB69005A9412 /* MHHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1712CA1C6FAB69005A9412 /* MHHomeViewController.xib */; };
 		3A1712D01C6FB0E0005A9412 /* MHSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1712CF1C6FB0E0005A9412 /* MHSplashViewController.xib */; };
+		3A1712D21C6FBB86005A9412 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1712D11C6FBB86005A9412 /* Alamofire.framework */; };
+		3A1FEE2F1C6FBD47004CDC96 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1FEE2E1C6FBD47004CDC96 /* SwiftyJSON.framework */; };
 		3A608A8B1C6F9FB8004149FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A608A8A1C6F9FB8004149FF /* AppDelegate.swift */; };
 		3A608A921C6F9FB8004149FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A608A911C6F9FB8004149FF /* Assets.xcassets */; };
 		3A608A951C6F9FB8004149FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A608A931C6F9FB8004149FF /* LaunchScreen.storyboard */; };
@@ -44,6 +46,8 @@
 		3A1712C81C6FAB3D005A9412 /* MHHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHHomeViewController.swift; path = Controllers/MHHomeViewController.swift; sourceTree = "<group>"; };
 		3A1712CA1C6FAB69005A9412 /* MHHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MHHomeViewController.xib; path = Views/MHHomeViewController.xib; sourceTree = "<group>"; };
 		3A1712CF1C6FB0E0005A9412 /* MHSplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MHSplashViewController.xib; path = Views/MHSplashViewController.xib; sourceTree = "<group>"; };
+		3A1712D11C6FBB86005A9412 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		3A1FEE2E1C6FBD47004CDC96 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		3A608A871C6F9FB8004149FF /* MHGitHot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHGitHot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A608A8A1C6F9FB8004149FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A608A911C6F9FB8004149FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1FEE2F1C6FBD47004CDC96 /* SwiftyJSON.framework in Frameworks */,
+				3A1712D21C6FBB86005A9412 /* Alamofire.framework in Frameworks */,
 				424EA857F2A97A56562368A4 /* Pods_MHGitHot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,6 +191,8 @@
 		C9B1676C359D8C8CB5FE8525 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3A1FEE2E1C6FBD47004CDC96 /* SwiftyJSON.framework */,
+				3A1712D11C6FBB86005A9412 /* Alamofire.framework */,
 				94AF3C4B9DAB065952193D52 /* Pods_MHGitHot.framework */,
 			);
 			name = Frameworks;
@@ -510,6 +518,10 @@
 			baseConfigurationReference = 1354DF5200C6693CF6C9A707 /* Pods-MHGitHot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = MHGitHot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -523,6 +535,10 @@
 			baseConfigurationReference = DDE0A8AE3C599BE82C69BE30 /* Pods-MHGitHot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = MHGitHot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
