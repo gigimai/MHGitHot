@@ -14,6 +14,13 @@
 		3A1712D01C6FB0E0005A9412 /* MHSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1712CF1C6FB0E0005A9412 /* MHSplashViewController.xib */; };
 		3A1712D21C6FBB86005A9412 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1712D11C6FBB86005A9412 /* Alamofire.framework */; };
 		3A1FEE2F1C6FBD47004CDC96 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1FEE2E1C6FBD47004CDC96 /* SwiftyJSON.framework */; };
+		3A1FEE361C704210004CDC96 /* MHRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1FEE351C704210004CDC96 /* MHRepository.swift */; };
+		3A4B43D41C7050E9005EB7D8 /* MHRepositoryUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B43D31C7050E9005EB7D8 /* MHRepositoryUser.swift */; };
+		3A4B43D71C7063EE005EB7D8 /* MHCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B43D51C7063EE005EB7D8 /* MHCustomTableViewCell.swift */; };
+		3A4B43D81C7063EE005EB7D8 /* MHCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A4B43D61C7063EE005EB7D8 /* MHCustomTableViewCell.xib */; };
+		3A4B43DA1C706F12005EB7D8 /* MHDataModelBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B43D91C706F12005EB7D8 /* MHDataModelBase.swift */; };
+		3A4B43DC1C706F65005EB7D8 /* MHRepositoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B43DB1C706F65005EB7D8 /* MHRepositoryList.swift */; };
+		3A4B43E11C708629005EB7D8 /* MHWebServiceDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B43E01C708629005EB7D8 /* MHWebServiceDefinitions.swift */; };
 		3A608A8B1C6F9FB8004149FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A608A8A1C6F9FB8004149FF /* AppDelegate.swift */; };
 		3A608A921C6F9FB8004149FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A608A911C6F9FB8004149FF /* Assets.xcassets */; };
 		3A608A951C6F9FB8004149FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A608A931C6F9FB8004149FF /* LaunchScreen.storyboard */; };
@@ -48,6 +55,13 @@
 		3A1712CF1C6FB0E0005A9412 /* MHSplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MHSplashViewController.xib; path = Views/MHSplashViewController.xib; sourceTree = "<group>"; };
 		3A1712D11C6FBB86005A9412 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
 		3A1FEE2E1C6FBD47004CDC96 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		3A1FEE351C704210004CDC96 /* MHRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHRepository.swift; path = Models/MHRepository.swift; sourceTree = "<group>"; };
+		3A4B43D31C7050E9005EB7D8 /* MHRepositoryUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHRepositoryUser.swift; path = Models/MHRepositoryUser.swift; sourceTree = "<group>"; };
+		3A4B43D51C7063EE005EB7D8 /* MHCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHCustomTableViewCell.swift; path = Utils/MHCustomTableViewCell.swift; sourceTree = "<group>"; };
+		3A4B43D61C7063EE005EB7D8 /* MHCustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MHCustomTableViewCell.xib; path = Utils/MHCustomTableViewCell.xib; sourceTree = "<group>"; };
+		3A4B43D91C706F12005EB7D8 /* MHDataModelBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHDataModelBase.swift; path = Models/MHDataModelBase.swift; sourceTree = "<group>"; };
+		3A4B43DB1C706F65005EB7D8 /* MHRepositoryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHRepositoryList.swift; path = Models/MHRepositoryList.swift; sourceTree = "<group>"; };
+		3A4B43E01C708629005EB7D8 /* MHWebServiceDefinitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHWebServiceDefinitions.swift; sourceTree = "<group>"; };
 		3A608A871C6F9FB8004149FF /* MHGitHot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHGitHot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A608A8A1C6F9FB8004149FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A608A911C6F9FB8004149FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -122,6 +136,10 @@
 		3A1712C01C6FA73C005A9412 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3A1FEE351C704210004CDC96 /* MHRepository.swift */,
+				3A4B43D31C7050E9005EB7D8 /* MHRepositoryUser.swift */,
+				3A4B43D91C706F12005EB7D8 /* MHDataModelBase.swift */,
+				3A4B43DB1C706F65005EB7D8 /* MHRepositoryList.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -129,6 +147,8 @@
 		3A1712C11C6FA741005A9412 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				3A4B43D51C7063EE005EB7D8 /* MHCustomTableViewCell.swift */,
+				3A4B43D61C7063EE005EB7D8 /* MHCustomTableViewCell.xib */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -166,6 +186,7 @@
 				3A608A911C6F9FB8004149FF /* Assets.xcassets */,
 				3A608A931C6F9FB8004149FF /* LaunchScreen.storyboard */,
 				3A608A961C6F9FB8004149FF /* Info.plist */,
+				3A4B43E01C708629005EB7D8 /* MHWebServiceDefinitions.swift */,
 			);
 			path = MHGitHot;
 			sourceTree = "<group>";
@@ -306,6 +327,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A4B43D81C7063EE005EB7D8 /* MHCustomTableViewCell.xib in Resources */,
 				3A608A951C6F9FB8004149FF /* LaunchScreen.storyboard in Resources */,
 				3A1712CB1C6FAB69005A9412 /* MHHomeViewController.xib in Resources */,
 				3A1712D01C6FB0E0005A9412 /* MHSplashViewController.xib in Resources */,
@@ -382,9 +404,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1FEE361C704210004CDC96 /* MHRepository.swift in Sources */,
+				3A4B43D71C7063EE005EB7D8 /* MHCustomTableViewCell.swift in Sources */,
 				3A1712C31C6FA758005A9412 /* MHSplashViewController.swift in Sources */,
 				3A608A8B1C6F9FB8004149FF /* AppDelegate.swift in Sources */,
 				3A1712C91C6FAB3D005A9412 /* MHHomeViewController.swift in Sources */,
+				3A4B43DC1C706F65005EB7D8 /* MHRepositoryList.swift in Sources */,
+				3A4B43DA1C706F12005EB7D8 /* MHDataModelBase.swift in Sources */,
+				3A4B43D41C7050E9005EB7D8 /* MHRepositoryUser.swift in Sources */,
+				3A4B43E11C708629005EB7D8 /* MHWebServiceDefinitions.swift in Sources */,
 				3A1712C71C6FAABD005A9412 /* MHBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

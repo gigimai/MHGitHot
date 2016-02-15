@@ -9,43 +9,40 @@
 import UIKit
 import Alamofire
 import SwiftyJSON
-
-struct Repo {
-    let name : String?
-    let description : String?
-}
-
 class MHHomeViewController: MHBaseViewController,UITableViewDelegate,UITableViewDataSource{
     @IBOutlet private weak var reposTableView : UITableView!
-    var dataSource : [Repo] = []
+    private var datasource : [MHRepository] = []
+    private var pageNumber = 0
+    private var languageQuery : String?
     override func viewDidLoad() {
         super.viewDidLoad()
-        reposTableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cellId")
-        loadRepos()
-    }
-
-    func loadRepos(){
-        Alamofire.request(.GET, "https://api.github.com/search/repositories", parameters: ["q":0])
-            .responseJSON { response in
-                switch response.result {
-                case .Success:
-                    if let value = response.result.value {
-                        let json = JSON(value)
-                        let repo = Repo(name: json["items"][0]["full_name"].string, description: json["items"][0]["description"].string)
-                        print("Repo \(repo)")
-                    }
-                case .Failure(let error):
-                    print(error)
-                }
-        }
+        self.reposTableView.registerNib(UINib(nibName: String(MHCustomTableViewCell.self), bundle: nil), forCellReuseIdentifier: MHCustomTableViewCell.cellIdentifier())
+        self.reposTableView.tableFooterView = UIView()
+        self.reposTableView.rowHeight = UITableViewAutomaticDimension
+        self.reposTableView.estimatedRowHeight = 80
+        loadMoreRepositories()
     }
     
+    func loadMoreRepositories() {
+        MHRepositoryList.loadGeneralRepositories(self.pageNumber, language: nil, success: { repoList in
+            self.datasource = repoList.repositories
+            print(self.datasource)
+            dispatch_async(dispatch_get_main_queue(), {
+                self.reposTableView.reloadData()
+            })
+            }, failure: { error in
+                print(error)
+        })
+    }
+
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dataSource.count
+        return self.datasource.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("cellId", forIndexPath: indexPath)
-        return cell
+        let cell = tableView.dequeueReusableCellWithIdentifier(MHCustomTableViewCell.cellIdentifier()) as? MHCustomTableViewCell
+        let repo = self.datasource[indexPath.row]
+        cell?.configureCellWithRepo(repo)
+        return cell!
     }
 }
