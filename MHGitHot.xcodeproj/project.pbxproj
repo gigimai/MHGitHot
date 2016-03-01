@@ -15,6 +15,16 @@
 		3A1712D21C6FBB86005A9412 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1712D11C6FBB86005A9412 /* Alamofire.framework */; };
 		3A1FEE2F1C6FBD47004CDC96 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1FEE2E1C6FBD47004CDC96 /* SwiftyJSON.framework */; };
 		3A1FEE361C704210004CDC96 /* MHRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1FEE351C704210004CDC96 /* MHRepository.swift */; };
+		3A40F0CF1C7EFE2B0070703F /* MHHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1712C81C6FAB3D005A9412 /* MHHomeViewController.swift */; };
+		3A40F0D11C7EFE470070703F /* MHBaseViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A40F0D01C7EFE470070703F /* MHBaseViewControllerTests.swift */; };
+		3A40F0D21C7EFE4A0070703F /* MHBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1712C61C6FAABD005A9412 /* MHBaseViewController.swift */; };
+		3A40F0D31C7EFF060070703F /* MHRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1FEE351C704210004CDC96 /* MHRepository.swift */; };
+		3A40F0D41C7EFF0B0070703F /* MHRepositoryUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B43D31C7050E9005EB7D8 /* MHRepositoryUser.swift */; };
+		3A40F0D51C7EFF1A0070703F /* MHCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B43D51C7063EE005EB7D8 /* MHCustomTableViewCell.swift */; };
+		3A40F0D61C7EFF2F0070703F /* MHDataModelBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B43D91C706F12005EB7D8 /* MHDataModelBase.swift */; };
+		3A40F0D71C7EFF340070703F /* MHRepositoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B43DB1C706F65005EB7D8 /* MHRepositoryList.swift */; };
+		3A40F0D81C7EFF3B0070703F /* MHSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1712C21C6FA758005A9412 /* MHSplashViewController.swift */; };
+		3A40F0D91C7EFF470070703F /* MHWebServiceDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B43E01C708629005EB7D8 /* MHWebServiceDefinitions.swift */; };
 		3A4B43D41C7050E9005EB7D8 /* MHRepositoryUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B43D31C7050E9005EB7D8 /* MHRepositoryUser.swift */; };
 		3A4B43D71C7063EE005EB7D8 /* MHCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B43D51C7063EE005EB7D8 /* MHCustomTableViewCell.swift */; };
 		3A4B43D81C7063EE005EB7D8 /* MHCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A4B43D61C7063EE005EB7D8 /* MHCustomTableViewCell.xib */; };
@@ -27,6 +37,8 @@
 		3A608AA01C6F9FB8004149FF /* MHGitHotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A608A9F1C6F9FB8004149FF /* MHGitHotTests.swift */; };
 		3A608AAB1C6F9FB8004149FF /* MHGitHotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A608AAA1C6F9FB8004149FF /* MHGitHotUITests.swift */; };
 		424EA857F2A97A56562368A4 /* Pods_MHGitHot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AF3C4B9DAB065952193D52 /* Pods_MHGitHot.framework */; };
+		5FC8436B78A7013D26254BFE /* Pods_MHGitHotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2CCC30B893CAA9503497F5 /* Pods_MHGitHotUITests.framework */; };
+		CD844AFA0D1EAED75BAE58DB /* Pods_MHGitHotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9764BB9BC9AD562519333F24 /* Pods_MHGitHotTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +68,7 @@
 		3A1712D11C6FBB86005A9412 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
 		3A1FEE2E1C6FBD47004CDC96 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		3A1FEE351C704210004CDC96 /* MHRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHRepository.swift; path = Models/MHRepository.swift; sourceTree = "<group>"; };
+		3A40F0D01C7EFE470070703F /* MHBaseViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHBaseViewControllerTests.swift; sourceTree = "<group>"; };
 		3A4B43D31C7050E9005EB7D8 /* MHRepositoryUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHRepositoryUser.swift; path = Models/MHRepositoryUser.swift; sourceTree = "<group>"; };
 		3A4B43D51C7063EE005EB7D8 /* MHCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHCustomTableViewCell.swift; path = Utils/MHCustomTableViewCell.swift; sourceTree = "<group>"; };
 		3A4B43D61C7063EE005EB7D8 /* MHCustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MHCustomTableViewCell.xib; path = Utils/MHCustomTableViewCell.xib; sourceTree = "<group>"; };
@@ -73,7 +86,13 @@
 		3A608AA61C6F9FB8004149FF /* MHGitHotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHGitHotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A608AAA1C6F9FB8004149FF /* MHGitHotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHGitHotUITests.swift; sourceTree = "<group>"; };
 		3A608AAC1C6F9FB8004149FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2CCC30B893CAA9503497F5 /* Pods_MHGitHotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHGitHotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48072890AC07FA9426472953 /* Pods-MHGitHotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHGitHotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHGitHotTests/Pods-MHGitHotTests.release.xcconfig"; sourceTree = "<group>"; };
 		94AF3C4B9DAB065952193D52 /* Pods_MHGitHot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHGitHot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9764BB9BC9AD562519333F24 /* Pods_MHGitHotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHGitHotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9CD16ABFA1F8D448AFD5BB /* Pods-MHGitHotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHGitHotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHGitHotTests/Pods-MHGitHotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD875C4E9A7FBCE1F23B798B /* Pods-MHGitHotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHGitHotUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHGitHotUITests/Pods-MHGitHotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6747732553C025D8A556583 /* Pods-MHGitHotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHGitHotUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHGitHotUITests/Pods-MHGitHotUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DDE0A8AE3C599BE82C69BE30 /* Pods-MHGitHot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHGitHot.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHGitHot/Pods-MHGitHot.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD844AFA0D1EAED75BAE58DB /* Pods_MHGitHotTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FC8436B78A7013D26254BFE /* Pods_MHGitHotUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +131,10 @@
 			children = (
 				1354DF5200C6693CF6C9A707 /* Pods-MHGitHot.debug.xcconfig */,
 				DDE0A8AE3C599BE82C69BE30 /* Pods-MHGitHot.release.xcconfig */,
+				9D9CD16ABFA1F8D448AFD5BB /* Pods-MHGitHotTests.debug.xcconfig */,
+				48072890AC07FA9426472953 /* Pods-MHGitHotTests.release.xcconfig */,
+				AD875C4E9A7FBCE1F23B798B /* Pods-MHGitHotUITests.debug.xcconfig */,
+				D6747732553C025D8A556583 /* Pods-MHGitHotUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -196,6 +221,7 @@
 			children = (
 				3A608A9F1C6F9FB8004149FF /* MHGitHotTests.swift */,
 				3A608AA11C6F9FB8004149FF /* Info.plist */,
+				3A40F0D01C7EFE470070703F /* MHBaseViewControllerTests.swift */,
 			);
 			path = MHGitHotTests;
 			sourceTree = "<group>";
@@ -215,6 +241,8 @@
 				3A1FEE2E1C6FBD47004CDC96 /* SwiftyJSON.framework */,
 				3A1712D11C6FBB86005A9412 /* Alamofire.framework */,
 				94AF3C4B9DAB065952193D52 /* Pods_MHGitHot.framework */,
+				9764BB9BC9AD562519333F24 /* Pods_MHGitHotTests.framework */,
+				3E2CCC30B893CAA9503497F5 /* Pods_MHGitHotUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -246,9 +274,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A608AB21C6F9FB8004149FF /* Build configuration list for PBXNativeTarget "MHGitHotTests" */;
 			buildPhases = (
+				D6AE4623BA7AC7862856E224 /* Check Pods Manifest.lock */,
 				3A608A971C6F9FB8004149FF /* Sources */,
 				3A608A981C6F9FB8004149FF /* Frameworks */,
 				3A608A991C6F9FB8004149FF /* Resources */,
+				4A5BB515A7510AF526BD21D5 /* Embed Pods Frameworks */,
+				F149D4DE67907BA11C4831A1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,9 +295,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A608AB51C6F9FB8004149FF /* Build configuration list for PBXNativeTarget "MHGitHotUITests" */;
 			buildPhases = (
+				81D694D461B0C4D39A4D11FC /* Check Pods Manifest.lock */,
 				3A608AA21C6F9FB8004149FF /* Sources */,
 				3A608AA31C6F9FB8004149FF /* Frameworks */,
 				3A608AA41C6F9FB8004149FF /* Resources */,
+				8A9C5C292301A2661FE10002 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -352,6 +385,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4A5BB515A7510AF526BD21D5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MHGitHotTests/Pods-MHGitHotTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81D694D461B0C4D39A4D11FC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A9C5C292301A2661FE10002 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MHGitHotUITests/Pods-MHGitHotUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A4415A3B030183F3B28BDD84 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,6 +460,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		D6AE4623BA7AC7862856E224 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		E1984FD4E22FAA6552B470BE /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -395,6 +488,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MHGitHot/Pods-MHGitHot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F149D4DE67907BA11C4831A1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MHGitHotTests/Pods-MHGitHotTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -421,6 +529,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A40F0D51C7EFF1A0070703F /* MHCustomTableViewCell.swift in Sources */,
+				3A40F0D91C7EFF470070703F /* MHWebServiceDefinitions.swift in Sources */,
+				3A40F0D21C7EFE4A0070703F /* MHBaseViewController.swift in Sources */,
+				3A40F0D11C7EFE470070703F /* MHBaseViewControllerTests.swift in Sources */,
+				3A40F0D61C7EFF2F0070703F /* MHDataModelBase.swift in Sources */,
+				3A40F0D81C7EFF3B0070703F /* MHSplashViewController.swift in Sources */,
+				3A40F0D71C7EFF340070703F /* MHRepositoryList.swift in Sources */,
+				3A40F0CF1C7EFE2B0070703F /* MHHomeViewController.swift in Sources */,
+				3A40F0D41C7EFF0B0070703F /* MHRepositoryUser.swift in Sources */,
+				3A40F0D31C7EFF060070703F /* MHRepository.swift in Sources */,
 				3A608AA01C6F9FB8004149FF /* MHGitHotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,6 +695,7 @@
 		};
 		3A608AB31C6F9FB8004149FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D9CD16ABFA1F8D448AFD5BB /* Pods-MHGitHotTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MHGitHotTests/Info.plist;
@@ -589,6 +708,7 @@
 		};
 		3A608AB41C6F9FB8004149FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48072890AC07FA9426472953 /* Pods-MHGitHotTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MHGitHotTests/Info.plist;
@@ -601,6 +721,7 @@
 		};
 		3A608AB61C6F9FB8004149FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD875C4E9A7FBCE1F23B798B /* Pods-MHGitHotUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MHGitHotUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -613,6 +734,7 @@
 		};
 		3A608AB71C6F9FB8004149FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6747732553C025D8A556583 /* Pods-MHGitHotUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MHGitHotUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

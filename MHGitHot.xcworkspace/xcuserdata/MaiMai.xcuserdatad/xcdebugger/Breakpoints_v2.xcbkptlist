@@ -9,14 +9,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MHGitHot/Controllers/MHHomeViewController.swift"
-            timestampString = "477170372.853072"
+            filePath = "MHGitHot/Models/MHRepository.swift"
+            timestampString = "477333419.654364"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "loadMoreRepositories()"
-            landmarkType = "5">
+            endingLineNumber = "30">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -25,14 +23,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MHGitHot/Controllers/MHHomeViewController.swift"
-            timestampString = "477170403.805915"
+            filePath = "MHGitHotTests/MHBaseViewControllerTests.swift"
+            timestampString = "478084947.4837"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "tableView(_:numberOfRowsInSection:)"
-            landmarkType = "5">
+            startingLineNumber = "33"
+            endingLineNumber = "33">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

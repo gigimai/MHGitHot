@@ -3,12 +3,16 @@ PODS:
   - ChameleonFramework (2.1.0):
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
+  - Nimble (3.0.0)
+  - Quick (0.9.1)
   - Spring (1.0.3)
   - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
   - Alamofire (~> 3.0)
   - ChameleonFramework
+  - Nimble (= 3.0.0)
+  - Quick (~> 0.9.0)
   - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift2`)
   - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
 
@@ -30,6 +34,8 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Alamofire: 4da478599fccddff361205c8929333d7fe18dceb
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
+  Quick: a5221fc21788b6aeda934805e68b061839bc3165
   Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 

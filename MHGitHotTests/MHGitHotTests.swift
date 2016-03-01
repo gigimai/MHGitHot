@@ -10,7 +10,7 @@ import XCTest
 @testable import MHGitHot
 
 class MHGitHotTests: XCTestCase {
-    
+
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -21,16 +21,46 @@ class MHGitHotTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testPeel_shouldMakeBananaEdible() {
+        let myBanana = Banana()
+        myBanana.peel()
+        XCTAssertTrue(myBanana.isEdible)
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock {
-            // Put the code you want to measure the time of here.
-        }
+}
+
+class OfferTest : XCTestCase {
+    
+    func testOffer_whenBananaIsPeel_offerTheBanana() {
+        let banana = Banana()
+        banana.peel()
+        let message = offer(banana)
+        XCTAssertEqual(message, "Hey, want a banana?")
     }
     
+    func testOffer_whenBananaIsNotPeel_offerToPeel() {
+        let banana = Banana()
+        let message = offer(banana)
+        XCTAssertEqual(message, "Hey, want me to peel this banana for you?")
+    }
+}
+
+public class Banana {
+    private var isPeeled = false
+    
+    func peel() {
+        isPeeled = true
+    }
+    
+    var isEdible : Bool {
+        return isPeeled
+    }
+}
+
+func offer(aBanana:Banana) -> String {
+    if aBanana.isEdible {
+        return "Hey, want a banana?"
+    } else {
+        return "Hey, want me to peel this banana for you?"
+    }
 }

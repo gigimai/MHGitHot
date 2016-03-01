@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'EB62F42C87F83C9634AAD36B'
+               BlueprintIdentifier = 'A353C546310C323CB90339EC'
                BlueprintName = 'Pods-MHGitHot'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_MHGitHot.framework'>

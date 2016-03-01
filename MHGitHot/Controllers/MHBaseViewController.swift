@@ -23,4 +23,8 @@ class MHBaseViewController: UIViewController {
         self.navigationController?.navigationBarHidden = false
         self.edgesForExtendedLayout = .None
     }
+    
+    func sum(a: Int, b: Int) -> Int {
+        return a + b
+    }
 }
